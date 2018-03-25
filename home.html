@@ -35,7 +35,6 @@ inbox="";
 result=0;
 var x="0";
 var pro;
-var flag=0;
 document.getElementById("res").value="";
 document.getElementById("1").onclick = function(){changefun("1")};
 document.getElementById("2").onclick = function(){changefun("2")};
@@ -60,8 +59,7 @@ document.getElementById("res").value=inbox}
 
 function final(){
 result=eval(inbox);
-document.getElementById("res").value=result;
-flag=1;}
+document.getElementById("res").value=result;}
 </script>
 </body>
 </html>
