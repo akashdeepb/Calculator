@@ -1,11 +1,10 @@
 var inbox;
-var a=[];
-var i=0;
 var result;
 inbox="";
 result=0;
 var x="0";
 document.getElementById("res").value="";
+//On clicking buttons, following will be called
 document.getElementById("1").onclick = function(){changefun("1")};
 document.getElementById("2").onclick = function(){changefun("2")};
 document.getElementById("3").onclick = function(){changefun("3")};
@@ -21,11 +20,14 @@ document.getElementById("sub").onclick = function(){changefun("-")};
 document.getElementById("mul").onclick = function(){changefun("*")};
 document.getElementById("div").onclick = function(){changefun("/")};
 document.getElementById("equal").onclick = function(){final()};
-
-function changefun(x){
+document.getElementById("clear").onclick = function(){clrall()};
+function changefun(x){				//function to change input values
 inbox=inbox+x;
 document.getElementById("res").value=inbox}
-
-function final(){
+function final(){					//function to evaluate the values present inside input(id="inbox")
 result=eval(inbox);
-document.getElementById("res").value=result;}
+document.getElementById("res").value=result;
+inbox=""}
+function clrall(){					//function to clear all the values inside the input(id="inbox") on clicking the clear button(id="clear")
+document.getElementById("res").value="";
+inbox=""}
