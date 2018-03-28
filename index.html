@@ -1,70 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Calculator</title></head>
-<body>
-<h1 id="head"> WELCOME TO CALCULATOR</h1>
-<input id="res"> </input><button id="clear"><<</button>
-<br>
-<button id="1">1</button>
-<button id="2">2</button>
-<button id="3">3</button>
-<br>
-<button id="4">4</button>
-<button id="5">5</button>
-<button id="6">6</button>
-<br>
-<button id="7">7</button>
-<button id="8">8</button>
-<button id="9">9</button>
-<br>
-<button id="sum">+</button>
-<button id="0">0</button>
-<button id="sub">-</button>
-<br><br>
-<button id="mul">*</button>
-<button id="div">/</button>
-<button id="equal">=</button>
+       
+<title>Calculator</title>
+</head>
+<body class="body">
+     
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 
-<script>
-//Following is the Javascript used for all the process that's happening in the index.html page
-var inbox;
-var result;
-inbox="";
-result=0;
-var x="0";
-document.getElementById("res").value="";
-
-//On clicking buttons, following will be called
-document.getElementById("1").onclick = function(){changefun("1")};
-document.getElementById("2").onclick = function(){changefun("2")};
-document.getElementById("3").onclick = function(){changefun("3")};
-document.getElementById("4").onclick = function(){changefun("4")};
-document.getElementById("5").onclick = function(){changefun("5")};
-document.getElementById("6").onclick = function(){changefun("6")};
-document.getElementById("7").onclick = function(){changefun("7")};
-document.getElementById("8").onclick = function(){changefun("8")};
-document.getElementById("9").onclick = function(){changefun("9")};
-document.getElementById("0").onclick = function(){changefun("0")};
-document.getElementById("sum").onclick = function(){changefun("+")};
-document.getElementById("sub").onclick = function(){changefun("-")};
-document.getElementById("mul").onclick = function(){changefun("*")};
-document.getElementById("div").onclick = function(){changefun("/")};
-document.getElementById("equal").onclick = function(){final()};
-document.getElementById("clear").onclick = function(){clrall()};
-
-function changefun(x){				//function to change input values
-inbox=inbox+x;
-document.getElementById("res").value=inbox}
-
-function final(){					//function to evaluate the values present inside input(id="inbox")
-result=eval(inbox);
-document.getElementById("res").value=result;
-inbox=""}
-
-function clrall(){					//function to clear all the values inside the input(id="inbox") on clicking the clear button(id="clear")
-document.getElementById("res").value="";
-inbox=""}
-</script>
+    <div class="calc">
+        
+        <input id="res"> </input><button id="clear">Clear</button>
+        <br>
+        <button class="button" id="1">1</button>
+        <button class="button"id="2">2</button>
+        <button class="button"id="3">3</button>
+        <br>
+        <button class="button"id="4">4</button>
+        <button class="button"id="5">5</button>
+        <button class="button"id="6">6</button>
+        <br>
+        <button class="button" id="7">7</button>
+        <button class="button" id="8">8</button>
+        <button class="button" id="9">9</button>
+        <br>
+        <button id="sum">+</button>
+        <button id="0">0</button>
+        <button id="sub">-</button>
+        <br><br>
+        <button id="mul">*</button>
+        <button id="div">/</button>
+        <button id="equal">=</button>
+    </div>
+    <script type="text/javascript" src="js/javascript.js"></script>
 </body>
 </html>
