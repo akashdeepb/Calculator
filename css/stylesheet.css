@@ -9,24 +9,30 @@ body{
 
 .calc{
     
-    
-    margin-right: 565px;
-    margin-left:500px;
-    margin-top: 150px; 
-    padding: 12px;
-    background-color:  rgb(51, 235, 91);
+  align-self: center;
+    padding: 1%; 
+    background-color: rgb(51, 235, 91);
+
+    width: 200px;
     border-radius: 15px;
     box-shadow: 7px 7px 16px gray;
 }
-
+.container{
+    align-items: center;
+    margin-top: 10%;
+    margin-left:5%;
+    margin-right: 5%;
+    padding-right: 0;
+    padding-left: 0;
+}
 
 .button{
    width: 40px;
    height: 40px;
     border-radius: 50%;
-   margin-left: 1px;
-   margin-right:5px;
-    margin-top: 15px;
+   margin-left: 1%;
+   margin-right:1%;
+    margin-top: 1%;
     border-width: 0px;
    background-color: white;
    border-style: none;
