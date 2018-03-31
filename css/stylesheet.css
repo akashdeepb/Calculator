@@ -19,6 +19,7 @@ body{
 }
 .container{
     align-items: center;
+    margin-left:1%;
 }
 
 .button{
