@@ -10,7 +10,7 @@ body{
 .calc{
     
   align-self: center;
-    padding: 2%; 
+    padding: 6px; 
     background-color: rgb(51, 235, 91);
 
     width: 200px;
@@ -19,11 +19,6 @@ body{
 }
 .container{
     align-items: center;
-    margin-top: 10%;
-    margin-left:3%;
-    margin-right: 6%;
-    padding-right: 0;
-    padding-left: 0;
 }
 
 .button{
