@@ -28,7 +28,7 @@ document.getElementById("res").value=inbox}
 function final(){					//function to evaluate the values present inside input(id="inbox")
 result=eval(inbox);
 document.getElementById("res").value=result;
-}
+inbox=result;}
 function clrall(){					//function to clear all the values inside the input(id="inbox") on clicking the clear button(id="clear")
 document.getElementById("res").value="";
 inbox=""}
