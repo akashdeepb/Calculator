@@ -19,6 +19,7 @@ document.getElementById("sum").onclick = function(){changefun("+")};
 document.getElementById("sub").onclick = function(){changefun("-")};
 document.getElementById("mul").onclick = function(){changefun("*")};
 document.getElementById("div").onclick = function(){changefun("/")};
+document.getElementById("dec").onclick=function(){changefun(".")};
 document.getElementById("equal").onclick = function(){final()};
 document.getElementById("clear").onclick = function(){clrall()};
 function changefun(x){				//function to change input values
