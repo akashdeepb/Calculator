@@ -13,7 +13,7 @@ body{
     padding: 7px;
     background-color: rgb(51, 235, 91);
 margin: auto;
-    width: 190px;
+    width: 192px;
     border-radius: 15px;
     box-shadow: 7px 7px 16px gray;
 }
@@ -48,11 +48,14 @@ margin: auto;
     background-color: whitesmoke;
 }
 .input{
-    height: 40px;
-    width: 180px;
+  height: 40px;
+    width: 185px;
     padding-top:60px;
-   font-size: 25px;
-    margin:auto;
+    margin: auto;
+    font-size: 25px;
+    border-radius: 7px;
+    border: none; 
+   
   
 }
 .equal{
