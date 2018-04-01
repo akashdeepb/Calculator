@@ -10,17 +10,14 @@ body{
 .calc{
     
   align-self: center;
-    padding: 6px; 
+    padding: 7px;
     background-color: rgb(51, 235, 91);
-
-    width: 200px;
+margin: auto;
+    width: 197px;
     border-radius: 15px;
     box-shadow: 7px 7px 16px gray;
 }
-.container{
-    align-items: center;
-    margin-left:1%;
-}
+
 
 .button{
    width: 40px;
@@ -78,7 +75,7 @@ body{
     height: 40px;
      border-radius: 50%;
     margin-left: 3px;
-   
+    margin-right:0px;
      margin-top: 15px;
      border-width: 0px;
      background-color: white;
