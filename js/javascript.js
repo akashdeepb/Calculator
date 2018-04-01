@@ -28,7 +28,6 @@ document.getElementById("res").value=inbox}
 function final(){					//function to evaluate the values present inside input(id="inbox")
 result=eval(inbox);
 document.getElementById("res").value=result;
-if(!(document.getElementById("sum")||document.getElementById("sub")||document.getElementById("div")||document.getElementById("mul"))
 inbox=""}
 function clrall(){					//function to clear all the values inside the input(id="inbox") on clicking the clear button(id="clear")
 document.getElementById("res").value="";
